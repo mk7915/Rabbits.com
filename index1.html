@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Rabbits softball team</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Rabbits">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div id="container">
+<header>
+	<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Rabbits" class="swing"></a></h1>
+</header>
+
+<div id="contents">
+
+<!-- スライドショー（slick）
+<aside class="mainimg-slick">
+	<div><img src="images/1.jpg" alt=""></div>
+	<div><img src="images/2.jpg" alt=""></div>
+	<div><img src="images/3.jpg" alt=""></div>
+	<div><img src="images/3.jpg" alt=""></div>
+	<div><img src="images/1.jpg" alt=""></div>
+</aside> -->
+
+<!--メインメニュー-->
+<div id="menubar">
+	<nav>
+		<ul>
+			<li><a href="greeting.html">Rabbitsとは</a></li>
+			<li><a href="member.html">選手名鑑</a></li>
+			<li><a href="index1.html">活動日</a></li>
+			<li><a href="memory.html">過去の記録</a>
+				<ul>
+				<li><a href="menu.html#morning">2024年</a></li>
+				<li><a href="menu.html#lunch">2023年</a></li>
+				<li><a href="menu.html#dinner">2022年</a></li>
+				</ul>
+			</li>
+			<li><a href="access.html">メンバー募集中！</a></li>
+		</ul>
+	</nav>
+</div>
+<!--/#menubar-->
+
+
+
+
+<main>
+	<div class="bg1">
+	<div class="bg1-inner">
+	<section class="list-side-title up">
+	<h2 class="type1">This<br class="responsive-br">Month's<br class="responsive-br">Activity</h2>
+	<div class="list-menu">
+	<div class="list">
+	<figure><img src="images/1.jpg" alt=""></figure>
+	<div class="text">
+	<h4>2024 Oct. 5th<span class="price">⚾️</span></h4>
+	<p>サンプルテキスト</p>
+	</div>
+	<span class="newicon">New!</span>
+	</div>
+
+	<div class="list">
+	<figure><img src="images/3.jpg" alt=""></figure>
+	<div class="text">
+	<h4>2024 Sep. ◎th<span class="price">⚾️</span></h4>
+	<p>サンプルテキスト</p>
+	</div>
+	</div>
+	</div>
+	<!--/.list-menu-->
+	</section>
+	</div>
+	</div>
+	<!--/.bg1-->
+
+
+	<!-- ここにカレンダーを挿入 -->
+	<section class="up">
+		<section class="calendar-section">
+			<h2>Calendar</h2>
+			<div id="calendar-container"></div>
+		</section>
+	</section>
+
+
+
+	<section class="up">
+	<h2>Photo Gallery</h2>
+	<div class="thumbnail-slide">
+		<a href="photo.html"><img src="images/1.jpg" alt=""></a>
+		<a href="photo.html"><img src="images/2.jpg" alt=""></a>
+		<a href="photo.html"><img src="images/3.jpg" alt=""></a>
+		<a href="photo.html"><img src="images/1.jpg" alt=""></a>
+	</div>
+	</section>
+
+</main>
+</div>
+<!--/#contents-->
+
+<footer>
+	<ul class="icons">
+	<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+	<li><a href="#"><i class="fab fa-line"></i></a></li>
+	<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+	<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+
+<div id="copyright">
+	<small>Copyright&copy; <a href="index.html">2024 </a>Rabbits.com</small>
+	<span class="pr"><a href="index.html" target="_blank">《Maki Web Design》</a></span>
+</div>
+<!--/#copyright-->
+
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+<span></span><span></span><span></span>
+</div>
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--スライドショー（slick）-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/slick.js"></script>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+
+<!-- 外部JavaScriptファイルのリンク -->
+<script src="js/calendar.js"></script>
+
+
+</body>
+</html>

@@ -914,10 +914,12 @@ ul.slick-dots li.slick-active button {
 		cursor: pointer;
 	}
 	
-	.thumbnail-slide {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, 1500px); 
-		grid-gap: 10px;
+		.thumbnail-slide {
+	  display: grid;
+	  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 150px以上の幅を確保して自動整列 */
+	  gap: 10px;
+	}
+
 	}
 
 
@@ -949,6 +951,12 @@ ul.slick-dots li.slick-active button {
 	.arrow.right {
 		right: 0;
 		border-radius: 3px 0 0 3px;
+	}
+
+	@media screen and (max-width: 699px) {
+	  .mainimg-slick {
+	    margin: 3rem;
+	  }
 	}
 
 	

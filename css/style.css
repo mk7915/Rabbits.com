@@ -17,17 +17,6 @@
 ---------------------------------------------------------------------------*/
 @import url("inview.css");
 
-@media screen and (max-width: 768px){
-    .grid {
-        display: block;
-    }
-    .grid-col-2 > .grid-item,
-    .grid-col-3 > .grid-item,
-    .grid-col-4 > .grid-item {
-        width: 100%;
-        margin: 20px 0;
-    }
-}
 
 /*CSSカスタムプロパティ（サイト全体を一括管理する為の設定）
 ---------------------------------------------------------------------------*/
